@@ -1,0 +1,26 @@
+{
+  "name": "refugesinfo",
+  "version": "1.0.0",
+  "description": "Refuges.info CLI api client",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./node_modules/.bin/tsc",
+    "start": "node lib/app.js"
+  },
+  "author": "Elie CHARRA <elie.charra@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/config": "0.0.32",
+    "@types/request": "0.0.44",
+    "@types/yargs": "^6.6.0",
+    "class-validator": "^0.7.1",
+    "config": "^1.26.1",
+    "request": "^2.81.0",
+    "typings": "^2.1.1",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.0"
+  }
+}
